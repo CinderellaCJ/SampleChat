@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cj.samplechat.ui.AddContactActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_contact_add"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorBlack">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWrite"
+            android:layout_centerInParent="true"
+            android:textSize="18dp"
+            android:text="添加好友"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edt_contact_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_contact_add"/>
+
+    <Button
+        android:id="@+id/btn_contact_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_contact_add"/>
+
+</RelativeLayout>
